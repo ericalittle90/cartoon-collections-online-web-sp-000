@@ -1,6 +1,6 @@
 def roll_call_dwarves(name)
   name.collect do |name|
-    puts name.each_line
+    puts name.each_with_index(name)
   end
 end
 
